@@ -869,7 +869,7 @@ void actualRendering(bool rearView) {
 			glStencilFunc(GL_EQUAL, 0x0, 0x1);
 			glStencilOp(GL_KEEP, GL_KEEP, GL_KEEP);
 			loadLights();
-			loadIDentity(MODEL);
+			loadIdentity(MODEL);
 			drawFloor(false);
 
 		}
