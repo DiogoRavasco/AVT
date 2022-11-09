@@ -1348,6 +1348,7 @@ void processKeys(unsigned char key, int xx, int yy)
 	case 'z': rover.stop(); break;
 	case 'l': rover.straighten(); break;
 	case 'f': fog = !fog; break;
+	case 'x': flareEffect = !flareEffect; break;
 	}
 }
 
