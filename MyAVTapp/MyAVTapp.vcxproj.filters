@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="AABB.cpp" />
+    <ClCompile Include="avtFreeType.cpp" />
+    <ClCompile Include="AVTmathLib.cpp" />
+    <ClCompile Include="basic_geometry.cpp" />
+    <ClCompile Include="lightDemo.cpp" />
+    <ClCompile Include="rover.cpp" />
+    <ClCompile Include="rock.cpp" />
+    <ClCompile Include="cylinder.cpp" />
+    <ClCompile Include="Texture_Loader.cpp" />
+    <ClCompile Include="vsShaderLib.cpp" />
+    <ClCompile Include="camera.cpp" />
+    <ClCompile Include="l3dBillboard.cpp" />
+    <ClCompile Include="meshFromAssimp.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AABB.h" />
+    <ClInclude Include="avtFreeType.h" />
+    <ClInclude Include="AVTmathLib.h" />
+    <ClInclude Include="cube.h" />
+    <ClInclude Include="ft2build.h" />
+    <ClInclude Include="geometry.h" />
+    <ClInclude Include="lights.h" />
+    <ClInclude Include="rock.h" />
+    <ClInclude Include="rover.h" />
+    <ClInclude Include="cylinder.h" />
+    <ClInclude Include="Texture_Loader.h" />
+    <ClInclude Include="VertexAttrDef.h" />
+    <ClInclude Include="vsShaderLib.h" />
+    <ClInclude Include="camera.h" />
+    <ClInclude Include="lightDemo.h" />
+    <ClInclude Include="l3dBillboard.h" />
+    <ClInclude Include="meshFromAssimp.h" />
+    <ClInclude Include="flare.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Dependencies.exe" />
+    <None Include="shaders\pointlight.frag" />
+    <None Include="shaders\pointlight.vert" />
+    <None Include="shaders\text.frag" />
+    <None Include="shaders\text.vert" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="normal.tga" />
+    <Image Include="back.tga" />
+    <Image Include="checker.png" />
+    <Image Include="cloud.png" />
+    <Image Include="crcl.tga" />
+    <Image Include="down.tga" />
+    <Image Include="flar.tga" />
+    <Image Include="front.tga" />
+    <Image Include="hxgn.tga" />
+    <Image Include="left.tga" />
+    <Image Include="lightwood.tga" />
+    <Image Include="particle.tga" />
+    <Image Include="right.tga" />
+    <Image Include="ring.tga" />
+    <Image Include="stone.tga" />
+    <Image Include="sun.tga" />
+    <Image Include="tree.tga" />
+    <Image Include="up.tga" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="flare.txt" />
+  </ItemGroup>
+</Project>
