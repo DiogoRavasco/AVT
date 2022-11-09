@@ -734,7 +734,7 @@ void drawAllSceneElements(bool specialFx) {
 			translate(MODEL, rover.pos[0], .0f, rover.pos[2]);
 			rotate(MODEL, -rover.getAngleDegs(), 0, 1, 0);
 			rotate(MODEL, 90, 0, 1, 0);
-			float scalingFactor = 0.01f;
+			float scalingFactor = 0.0065f;
 			scale(MODEL, scalingFactor, scalingFactor, scalingFactor);
 
 			glUniform1i(texMode_uniformId, 7);
